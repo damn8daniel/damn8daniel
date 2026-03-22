@@ -1,14 +1,30 @@
-# Hi, I'm Daniil Borisov
+<div align="center">
 
-**AI & Data Science** | RUDN University, Faculty of Artificial Intelligence
-Specialization: Data Management & Artificial Intelligence | 2026
+# Daniil Borisov
 
-## Tech Stack
+**ML Engineer & Systems Developer**
 
-**ML/DL:** PyTorch, TensorFlow, YOLO, HuggingFace Transformers, scikit-learn, OpenCV, MediaPipe
-**Languages:** Python, C++17/20, Swift, TypeScript
-**Backend:** FastAPI, Flask, Docker, Kubernetes
-**Mobile:** SwiftUI, Capacitor
+RUDN University — Faculty of Artificial Intelligence | Moscow, Russia
+
+[![Telegram](https://img.shields.io/badge/Telegram-@dabriety-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/dabriety)
+[![Email](https://img.shields.io/badge/Email-1032256702@rudn.ru-D14836?style=flat&logo=gmail&logoColor=white)](mailto:1032256702@rudn.ru)
+
+</div>
+
+---
+
+I build things from scratch to understand how they work — from GPU-accelerated neural networks to operating system kernels. My repositories cover 50+ implementations across deep learning, systems programming, and distributed systems.
+
+### Languages & Tools
+
+```
+Python      ████████████████████████  Expert    │  PyTorch, NumPy, FastAPI, asyncio
+C++         ████████████████████░░░░  Advanced  │  C++20, CMake, STL, SIMD
+Go          ████████████████░░░░░░░░  Advanced  │  Goroutines, gRPC, net/http
+Rust        ████████████████░░░░░░░░  Advanced  │  Tokio, Axum, async
+TypeScript  ████████████████░░░░░░░░  Advanced  │  Next.js, React, Node.js
+Swift       ████████████░░░░░░░░░░░░  Proficient│  SwiftUI, UIKit, iOS
+```
 
 ---
 
@@ -33,6 +49,8 @@ Specialization: Data Management & Artificial Intelligence | 2026
 
 | Project | What it does |
 |---------|-------------|
+| [dl-framework-python](https://github.com/damn8daniel/dl-framework-python) | PyTorch-like framework from scratch: autograd, Conv2d, Adam |
+| [distributed-training-framework](https://github.com/damn8daniel/distributed-training-framework) | Distributed training: DDP, FSDP, Pipeline Parallel, Ray Tune |
 | [rlhf-pipeline](https://github.com/damn8daniel/rlhf-pipeline) | RLHF: reward model, PPO, KL penalty, 3-stage alignment |
 | [knowledge-distillation](https://github.com/damn8daniel/knowledge-distillation) | KD: Hinton, FitNets, Attention Transfer, BERT compression |
 | [contrastive-learning](https://github.com/damn8daniel/contrastive-learning) | SimCLR + BYOL: NT-Xent, LARS, linear probing |
@@ -45,7 +63,7 @@ Specialization: Data Management & Artificial Intelligence | 2026
 |---------|-------------|
 | [autograd-engine](https://github.com/damn8daniel/autograd-engine) | Mini PyTorch: computational graph, autodiff in pure NumPy |
 | [gradient-boosting-from-scratch](https://github.com/damn8daniel/gradient-boosting-from-scratch) | XGBoost-like: Newton boosting, histogram splits |
-| [bayesian-neural-network](https://github.com/damn8daniel/bayesian-neural-network) | BNN: Bayes by Backprop, SWAG, OOD detection, active learning |
+| [bayesian-neural-network](https://github.com/damn8daniel/bayesian-neural-network) | BNN: Bayes by Backprop, SWAG, OOD detection |
 | [neural-ode](https://github.com/damn8daniel/neural-ode) | Neural ODE: adjoint method, latent ODE, normalizing flows |
 | [svm-from-scratch](https://github.com/damn8daniel/svm-from-scratch) | SVM: SMO algorithm, kernel trick, multi-class |
 | [em-algorithm](https://github.com/damn8daniel/em-algorithm) | EM: GMM, HMM (Baum-Welch), Viterbi decoding |
@@ -60,35 +78,69 @@ Specialization: Data Management & Artificial Intelligence | 2026
 | [world-model](https://github.com/damn8daniel/world-model) | DreamerV3: RSSM, imagination-based planning |
 | [multi-agent-rl](https://github.com/damn8daniel/multi-agent-rl) | MAPPO: cooperative multi-agent, centralized critic |
 | [meta-learning](https://github.com/damn8daniel/meta-learning) | MAML, Reptile, ProtoNet: few-shot classification |
+| [federated-learning](https://github.com/damn8daniel/federated-learning) | FedAvg, FedProx, differential privacy |
 
-## Distributed & Privacy
+## NLP & Recommendation
 
 | Project | What it does |
 |---------|-------------|
-| [federated-learning](https://github.com/damn8daniel/federated-learning) | FedAvg, FedProx, differential privacy |
+| [nlp-pipeline](https://github.com/damn8daniel/nlp-pipeline) | Production NLP: BPE tokenizer, BiLSTM-CRF NER, Word2Vec |
+| [recommendation-system](https://github.com/damn8daniel/recommendation-system) | RecSys: collaborative filtering, matrix factorization, A/B testing |
+| [lang-interpreter](https://github.com/damn8daniel/lang-interpreter) | Programming language: lexer, parser, classes, closures, GC |
+
+## Systems Programming — C++
+
+| Project | What it does |
+|---------|-------------|
+| [database-engine-cpp](https://github.com/damn8daniel/database-engine-cpp) | SQL database: B+ tree, WAL, buffer pool, query planner |
+| [redis-clone-cpp](https://github.com/damn8daniel/redis-clone-cpp) | Redis clone: RESP protocol, skip list, RDB/AOF, 800K ops/sec |
+| [network-stack-cpp](https://github.com/damn8daniel/network-stack-cpp) | TCP/IP stack: Ethernet → ARP → IP → ICMP → UDP → TCP |
+| [ray-tracer-cpp](https://github.com/damn8daniel/ray-tracer-cpp) | Path tracer: BVH (SAH), Monte Carlo GI, Perlin noise |
+| [mini-os-cpp](https://github.com/damn8daniel/mini-os-cpp) | x86-64 kernel: paging, processes, scheduler, shell |
+| [game-engine-cpp](https://github.com/damn8daniel/game-engine-cpp) | 2D engine: ECS, OpenGL renderer, physics, particles |
+| [cpp-json-parser](https://github.com/damn8daniel/cpp-json-parser) | Streaming JSON parser for 1GB+ files |
+| [cpp-telegram-bot](https://github.com/damn8daniel/cpp-telegram-bot) | Feature-rich Telegram bot in C++20 |
+
+## Systems Programming — Go & Rust
+
+| Project | What it does |
+|---------|-------------|
+| [api-gateway-go](https://github.com/damn8daniel/api-gateway-go) | API Gateway: load balancing, circuit breaker, rate limiting |
+| [observability-platform](https://github.com/damn8daniel/observability-platform) | Observability: logs + metrics + traces, ClickHouse, gRPC |
+| [mini-container-runtime](https://github.com/damn8daniel/mini-container-runtime) | Container runtime: namespaces, cgroups v2, OCI images |
+| [event-driven-rust](https://github.com/damn8daniel/event-driven-rust) | Microservices: NATS, saga pattern, OpenTelemetry |
+| [search-engine-rust](https://github.com/damn8daniel/search-engine-rust) | Search engine: inverted index, BM25, phrase queries |
+
+## Backend & Infrastructure
+
+| Project | What it does |
+|---------|-------------|
+| [ml-serving-platform](https://github.com/damn8daniel/ml-serving-platform) | ML model serving: FastAPI, Celery, Redis, Prometheus |
+| [realtime-data-pipeline](https://github.com/damn8daniel/realtime-data-pipeline) | Streaming: Kafka, TimescaleDB, WebSocket dashboard |
+| [ai-saas-platform](https://github.com/damn8daniel/ai-saas-platform) | AI SaaS: Next.js, Stripe, OAuth, usage tracking |
+| [k8s-ml-orchestrator](https://github.com/damn8daniel/k8s-ml-orchestrator) | MLOps: Helm, Argo Workflows, canary deployments |
+| [workflow-engine](https://github.com/damn8daniel/workflow-engine) | DAG workflow engine: topological scheduling, Celery |
+| [async-web-framework](https://github.com/damn8daniel/async-web-framework) | Web framework on raw asyncio: routing, DI, OpenAPI |
+| [video-streaming-platform](https://github.com/damn8daniel/video-streaming-platform) | Video platform: HLS, FFmpeg transcoding, adaptive bitrate |
+| [identity-server](https://github.com/damn8daniel/identity-server) | OAuth2/OIDC server: PKCE, JWKS, MFA, token introspection |
+| [graphql-federation-platform](https://github.com/damn8daniel/graphql-federation-platform) | GraphQL Federation: Apollo Gateway, 4 subgraphs |
+| [crdt-collaboration-engine](https://github.com/damn8daniel/crdt-collaboration-engine) | Real-time collaboration: CRDT, Yjs, Monaco Editor |
 
 ## Applied ML & Production
 
 | Project | What it does |
 |---------|-------------|
 | [skin-cancer-ensemble](https://github.com/damn8daniel/skin-cancer-ensemble) | 23-model ensemble (SwinV2, ConvNeXt, ViT). AUC ~0.96 |
-| [yolo11-waveguide-segmentation](https://github.com/damn8daniel/yolo11-waveguide-segmentation) | YOLO11-seg for space waveguide soldering |
+| [yolo11-waveguide-segmentation](https://github.com/damn8daniel/yolo11-waveguide-segmentation) | YOLO11-seg for space waveguide manufacturing |
 | [fakehunter-review-detection](https://github.com/damn8daniel/fakehunter-review-detection) | Fake review detection, fine-tuned RuBERT, F1 ~99.9% |
-| [skin-cancer-detector](https://github.com/damn8daniel/skin-cancer-detector) | Full-stack medical AI: EfficientNetB3 + Flask + React |
+| [skin-cancer-detector](https://github.com/damn8daniel/skin-cancer-detector) | Medical AI: EfficientNetB3 + Flask + React |
 | [airdraw](https://github.com/damn8daniel/airdraw) | Air drawing with hand gestures, MediaPipe + Swift |
-| [monte-carlo-risk-analyzer](https://github.com/damn8daniel/monte-carlo-risk-analyzer) | Monte Carlo risk simulation |
+| [monte-carlo-risk-analyzer](https://github.com/damn8daniel/monte-carlo-risk-analyzer) | Monte Carlo risk simulation with PERT distributions |
 
-## Systems & Mobile
+## Mobile
 
 | Project | What it does |
 |---------|-------------|
-| [cpp-json-parser](https://github.com/damn8daniel/cpp-json-parser) | C++17 JSON parser, streaming 1GB+ files |
-| [cpp-telegram-bot](https://github.com/damn8daniel/cpp-telegram-bot) | C++20 Telegram bot |
-| [pixel-pet-tamagotchi](https://github.com/damn8daniel/pixel-pet-tamagotchi) | Telegram WebApp game |
-| [brushely-ios](https://github.com/damn8daniel/brushely-ios) | iOS dental health app |
-| [parkspot-ios](https://github.com/damn8daniel/parkspot-ios) | iOS parking rental app |
-
-## Contact
-
-- Telegram: [@dabriety](https://t.me/dabriety)
-- Email: 1032256702@rudn.ru
+| [brushely-ios](https://github.com/damn8daniel/brushely-ios) | iOS dental health app, SwiftUI + camera tracking |
+| [parkspot-ios](https://github.com/damn8daniel/parkspot-ios) | P2P parking rental, MapKit + booking system |
+| [pixel-pet-tamagotchi](https://github.com/damn8daniel/pixel-pet-tamagotchi) | Telegram WebApp virtual pet game |
